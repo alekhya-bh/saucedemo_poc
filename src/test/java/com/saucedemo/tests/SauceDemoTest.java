@@ -81,9 +81,6 @@ public class SauceDemoTest {
 
     @Test(priority = 3)
     public void buyProductsRanging_30to60Dollars() {
-       /* login_pages.setUsername_Field("standard_user");
-        login_pages.password_Input_Field("secret_sauce");
-        login_pages.click_login_Button();*/
         productPages.backPack_addToCart();
         productPages.bikeLight_addToCart();
         productPages.boltTShirt_addToCart();
